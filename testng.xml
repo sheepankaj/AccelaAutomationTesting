@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AccelaAutomationTesting">
+<!-- -
+	<listeners>
+		<listener
+			class-name="com.accelatesting.Utilities.ReportingResults" />
+
+	</listeners> -->
+	<test name="BuyaGiftWeb testing">
+		<parameter name="Browsers" value="chrome" />
+		<classes>
+		   <class name="com.accelatesting.testCases.TC_HomePage_001" /> 	
+	  		<class name="com.accelatesting.testCases.TC_SearchProducts_002" />
+			<class name="com.accelatesting.testCases.TC_SelectProducttoBasket_003" />  
+			<class name="com.accelatesting.testCases.TC_VerifyProductPriceAtBasket_004" />
+			<class name="com.accelatesting.testCases.TC_VerifyPlaceAsGuest_005" /> 
+			<class name="com.accelatesting.testCases.TC_VerifyFillingPersonalDetailsFields_006" />
+			<class name="com.accelatesting.testCases.TC_VerifyFillingAddressDetails_007" />
+			<class name="com.accelatesting.testCases.TC_VerifyPaymentDetails_008" />
+	
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AccelaAutomationTesting]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BuyaGiftWeb testing(failed)">
+    <parameter name="Browsers" value="chrome"/>
+    <classes>
+      <class name="com.accelatesting.testCases.TC_VerifyProductPriceAtBasket_004">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="VerifyProductPriceOfBasket"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.accelatesting.testCases.TC_VerifyProductPriceAtBasket_004 -->
+    </classes>
+  </test> <!-- BuyaGiftWeb testing(failed) -->
+</suite> <!-- Failed suite [AccelaAutomationTesting] -->
